@@ -1,112 +1,88 @@
-/* This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the top of the
- * compiled file, but it's generally better to create a new file per style scope.
- *
- *= require_self
- *= require_tree . */
-/* line 19, ../../app/assets/stylesheets/application.css.sass */
-html, body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  width: 100%;
-  -height: 100%;
-  color: #111111;
-  font-size: 30px;
-  font-family: "Open Sans", sans-serif;
-}
+/*
+Syntax error: File to import not found or unreadable: main.
+              Load paths:
+                Compass::SpriteImporter
+                /Users/eric/redacted/redacted.io/public/stylesheets/sass
+                /Users/eric/redacted/redacted.io/app/assets/stylesheets
+                /Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/compass-0.11.7/frameworks/blueprint/stylesheets
+                /Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/compass-0.11.7/frameworks/compass/stylesheets
+        on line 3 of /Users/eric/redacted/redacted.io/app/assets/stylesheets/application.css.sass
 
-/* line 30, ../../app/assets/stylesheets/application.css.sass */
-body {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #998866), color-stop(100%, #667766));
-  background-image: -webkit-linear-gradient(#998866, #667766);
-  background-image: -moz-linear-gradient(#998866, #667766);
-  background-image: -o-linear-gradient(#998866, #667766);
-  background-image: -ms-linear-gradient(#998866, #667766);
-  background-image: linear-gradient(#998866, #667766);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+1: @import 'compass'
+2: @import 'compass/reset'
+3: @import 'main'
 
-/* line 35, ../../app/assets/stylesheets/application.css.sass */
-a {
-  text-decoration: none;
-}
-
-/* line 38, ../../app/assets/stylesheets/application.css.sass */
-a:link {
-  color: #6d0a00;
-}
-
-/* line 41, ../../app/assets/stylesheets/application.css.sass */
-a:visited {
-  color: #6d3d00;
-}
-
-/* line 44, ../../app/assets/stylesheets/application.css.sass */
-a:hover {
-  color: #a00f00;
-}
-
-/* line 47, ../../app/assets/stylesheets/application.css.sass */
-a:active {
-  color: #3a0500;
-}
-
-/* line 50, ../../app/assets/stylesheets/application.css.sass */
-.wrapper {
-  width: 55%;
-  margin: 15% auto 20px;
-}
-
-/* line 54, ../../app/assets/stylesheets/application.css.sass */
-.teaser {
-  text-align: center;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-/* line 62, ../../app/assets/stylesheets/application.css.sass */
-h1 {
-  font-size: 2.5em;
-  font-weight: 600;
-  margin: 10px auto;
-  -o-user-select: none;
-  user-select: none;
-}
-
-/* line 69, ../../app/assets/stylesheets/application.css.sass */
-footer {
-  text-align: center;
-}
-
-/* line 72, ../../app/assets/stylesheets/application.css.sass */
-.ribbon {
-  box-sizing: border-box;
-  -box-shadow: inset 0px 0px 100px #ff8e84;
-  width: 100%;
-  height: 100px;
-}
-
-/* line 79, ../../app/assets/stylesheets/application.css.sass */
-.logo {
-  background: red;
-  box-sizing: border-box;
-  width: 260px;
-  height: 75px;
-  padding: 10px auto;
-  font-size: 3em;
-  text-align: center;
-  font-weight: bold;
-  font-family: FreeSans, Sans-Serif;
-  color: white;
-}
+Backtrace:
+/Users/eric/redacted/redacted.io/app/assets/stylesheets/application.css.sass:3
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/import_node.rb:64:in `rescue in import'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/import_node.rb:42:in `import'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/import_node.rb:25:in `imported_file'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:149:in `rescue in visit_import'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:154:in `visit_import'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `map'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/base.rb:37:in `visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:18:in `visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/visitors/perform.rb:7:in `visit'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/tree/root_node.rb:20:in `render'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/engine.rb:300:in `_render'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/engine.rb:248:in `block in render'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/util.rb:297:in `silence_sass_warnings'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/engine.rb:248:in `render'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:339:in `update_stylesheet'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `each'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin.rb:81:in `update_stylesheets'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin.rb:54:in `check_for_updates'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/sass-3.1.12/lib/sass/plugin/rack.rb:51:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activerecord-3.2.1/lib/active_record/query_cache.rb:64:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activerecord-3.2.1/lib/active_record/connection_adapters/abstract/connection_pool.rb:443:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `_run__2099650336092175452__call__1095944341427064631__callbacks'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activesupport-3.2.1/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/railties-3.2.1/lib/rails/rack/logger.rb:26:in `call_app'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/railties-3.2.1/lib/rails/rack/logger.rb:16:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/activesupport-3.2.1/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/actionpack-3.2.1/lib/action_dispatch/middleware/static.rb:53:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/railties-3.2.1/lib/rails/engine.rb:479:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/railties-3.2.1/lib/rails/application.rb:220:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/railties-3.2.1/lib/rails/rack/log_tailer.rb:14:in `call'
+/Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/Users/eric/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/Users/eric/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/Users/eric/.rvm/rubies/ruby-1.9.2-p290/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: main.\A               Load paths:\A                 Compass::SpriteImporter\A                 /Users/eric/redacted/redacted.io/public/stylesheets/sass\A                 /Users/eric/redacted/redacted.io/app/assets/stylesheets\A                 /Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/compass-0.11.7/frameworks/blueprint/stylesheets\A                 /Users/eric/.rvm/gems/ruby-1.9.2-p290@redacted.io/gems/compass-0.11.7/frameworks/compass/stylesheets\A         on line 3 of /Users/eric/redacted/redacted.io/app/assets/stylesheets/application.css.sass\A \A 1: @import 'compass'\A 2: @import 'compass/reset'\A 3: @import 'main'"; }
