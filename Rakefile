@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-RedactedIo::Application.load_tasks
+RedactedRails::Application.load_tasks
