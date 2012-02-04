@@ -1,0 +1,56 @@
+.dashboard
+  font:
+    size: .9em
+  float: right
+  display: inline-block
+
+.logo
+  display: inline-block
+  border-bottom: 4px $strong-accent solid
+  font:
+    size: 2em
+
+.ribbon
+  box-sizing: border-box
+  background-color: $strong-accent
+  width: 100%
+  height: 100px
+
+.wrapper
+  -border: 1px dotted
+  width: 90%
+  margin: 10px auto 20px
+
+.site-footer
+  font:
+    size: .8em
+  padding: 10px
+
+.site-header
+  width: 100%
+  padding: 10px
+  font:
+    weight: bold
+    family: "Open Sans", sans-serif
+
+.site-navigation
+  padding: 6px 10px 0 0
+    
+  display: inline-block
+  float: right
+
+  text-align: right
+
+  a:link, a:visited, a:hover, a:active
+    color: #111
+  
+  ul,li
+    display: inline
+    
+  li 
+    padding: 0 10px
+    font:
+      weight: bold
+    > a.selected, > a:hover
+      border-bottom: 4px $strong-accent solid
+
