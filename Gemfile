@@ -9,6 +9,9 @@ gem 'pg'
 gem 'slim-rails'
 gem 'heroku'
 gem 'simple-navigation'
+gem 'bcrypt-ruby'
+gem 'gravatar_image_tag', '0.1.0'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -22,6 +25,8 @@ end
 gem 'jquery-rails'
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'pry'
   gem 'taps'
+  gem 'annotate', :git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
 end

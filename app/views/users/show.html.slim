@@ -1,0 +1,9 @@
+.profile
+  h1
+    == gravatar_for @user
+    == "#{@user.first_name.capitalize} #{@user.last_name.capitalize}"
+  h2
+    == @user.email
+
+  fieldset.services
+    legend services

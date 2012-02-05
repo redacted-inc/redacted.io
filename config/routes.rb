@@ -1,9 +1,19 @@
 RedactedRails::Application.routes.draw do
 
   root :to => 'pages#home'
-  match 'hosting' => 'pages#hosting'
+
   match 'about' => 'pages#about'
   match 'contact' => 'pages#contact'
+
+  match 'register' => 'users#new'
+  match 'login' => 'sessions#new'
+  match 'logout' => 'sessions#destroy'
+
+  match 'hosting' => 'hosting#show'
+
+  resources :users
+  resources :sessions
+  resources :hosting
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

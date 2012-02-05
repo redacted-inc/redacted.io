@@ -1,6 +1,7 @@
 header.site-header
-  .logo redacted inc.
+  .logo
+    == link_to "redacted inc.", root_path
   nav.site-navigation
     ==render_navigation
     | |&nbsp&nbsp
-    = link_to "sign in", '#'
+    == dashboard
