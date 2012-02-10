@@ -1,19 +1,22 @@
 RedactedRails::Application.routes.draw do
 
+  get "password_resets/new"
+
   root :to => 'pages#home'
 
   match 'about' => 'pages#about'
   match 'contact' => 'pages#contact'
 
-  match 'register' => 'users#new'
-  match 'login' => 'sessions#new'
-  match 'logout' => 'sessions#destroy'
+  get 'register' => 'users#new'
+  get 'login' => 'sessions#new'
+  get 'logout' => 'sessions#destroy'
 
   match 'hosting' => 'hosting#show'
 
   resources :users
   resources :sessions
   resources :hosting
+  resources :password_resets
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

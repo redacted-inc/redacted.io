@@ -6,11 +6,11 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'slim-rails'
 gem 'heroku'
 gem 'simple-navigation'
 gem 'bcrypt-ruby'
 gem 'gravatar_image_tag', '0.1.0'
+gem 'slim-rails', :git => 'https://github.com/leogalmeida/slim-rails.git'
 
 # Gems used only for assets and not required
 # in production environments by default.

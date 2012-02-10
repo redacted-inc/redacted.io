@@ -1,7 +1,8 @@
 header.site-header
-  .logo
-    == link_to "redacted inc.", root_path
+  .logo == link_to "redacted inc.", root_path
   nav.site-navigation
-    ==render_navigation
+    == render_navigation
     | |&nbsp&nbsp
-    == dashboard
+    == render :partial => 'shared/account_menu'
+    span
+      

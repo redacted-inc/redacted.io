@@ -37,4 +37,7 @@ RedactedRails::Application.configure do
 
   # Pretty Slim
   Slim::Engine.set_default_options :pretty => true
+
+  # Mail
+  config.action_mailer.default_url_options = { :host => "localhost:3000" }
 end

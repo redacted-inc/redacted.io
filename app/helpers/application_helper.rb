@@ -10,13 +10,14 @@ module ApplicationHelper
     end
   end
 
-  def dashboard
-    if @current_user.nil?
-      link_to "login", login_path
-    else
-      link_to @current_user.first_name, user_path(@current_user.id)
-    end
-  end
+  # def dashboard
+  #   #binding.pry
+  #   if current_user.nil?
+  #     link_to "login", login_path
+  #   else
+  #     link_to current_user.first_name.capitalize, user_path(current_user.id)
+  #   end
+  # end
 
   def flash_helper
     f_names = [:notice, :warning, :message]
